@@ -7,7 +7,6 @@ function calculate_median(arr) {
     x.sort(function(v1,v2){
         return v2-v1;
     })
-    alert(x.length);
     var len = x.length;
     if(x.length%2 == 0){
         return (x[len/2-1]+x[len/2])/2;
